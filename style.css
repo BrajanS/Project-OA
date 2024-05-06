@@ -1,20 +1,21 @@
 body {
-    background-color: lightblue;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    
 }
 
 header {
     padding: 0;
     margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(0,0,0,0.2);
+    height: 831px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)),url("./images/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
 }
 
 #navBar {
-    height: 60px;
+    height: 74px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,19 +28,23 @@ header {
 }
 
 #navPages {
+    height: 74px;
+    width: 825px;
+    
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
     margin-right: 40px;
+    gap:30px;
 }
 
-ul {
+.nPclick {
+    height: 60px;
+    margin-block: 0;
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 30px;
-}
-
-li {
-    display: inline;
-
 }
 
 #mCust {display: flex; justify-content: flex-end;}
@@ -65,11 +70,36 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto slab", sans-serif;
+    font-weight: bolder;
     color: white;
 }
+.mainUP {
+    position: relative;
+    bottom: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 315px;
+}
+#mh2 {
+    display: flex;
+    flex-direction: column;}
+#Uhm2 {
+    border-bottom: 2px solid #fb2056;
+    width: 50px;
+    height: 2px;
+}
+.main1 {
+    display: flex;
+    align-items: center;
+    /* padding-bottom: 20px; */
+}
+#mh1 {
+    font-size: 200%;
+}
 
-#LMButton {
+#LMButton,#TAB {
     padding: 15px;
     padding-left: 35px;
     padding-right: 35px;
@@ -94,11 +124,29 @@ main {
     align-items: center;
 }
 
-.mainUP {
+.main1 {
     margin: auto;
     display: flex;
     justify-content: center;
 }
+
+.mainMID1 {
+    background-image: url("./images/invisible-thing.png");
+    height: 140px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    bottom: 570px;
+
+}
+.mMID1text {
+    color: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 
 footer {
