@@ -105,7 +105,7 @@ main {
 }
 
 #LMButton,#TAB {
-    padding: 15px;
+    padding: 14px;
     padding-left: 35px;
     padding-right: 35px;
     border: 0px solid black;
@@ -114,7 +114,7 @@ main {
     border-top-left-radius: 33.33px;
     border-bottom-left-radius: 33.33px;
     background-color: #fb2056;
-    font-family: "Roboto", sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-weight: bold;
     font-size: 0.875rem;
     text-align: center;
@@ -204,7 +204,17 @@ p {
     color: white;
     background-color: #fb2056;
     border-radius: 33.33px;
-    padding: 15px;
+    padding: 14px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.holidButton {
+    font-size: 0.875rem;
+    font-family: "Noto Sans",sans-serif;
+    color: white;
+    background-color: #fb2056;
+    border-radius: 33.33px;
+    padding: 14px;
     padding-left: 35px;
     padding-right: 35px;
 }
