@@ -3,6 +3,10 @@ body {
     padding: 0;
     
 }
+::selection {
+    color: white;
+    background-color:#fb2056;
+}
 
 header {
     padding: 0;
@@ -28,9 +32,7 @@ header {
 }
 
 #navPages {
-    height: 74px;
-    width: 825px;
-    
+    height: 74px;  
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -76,8 +78,7 @@ main {
     color: white;
 }
 .mainUP {
-    position: relative;
-    bottom: 580px;
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +86,9 @@ main {
 }
 #mh2 {
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+    color: white;
+}
 #Uhm2 {
     border-bottom: 2px solid #fb2056;
     width: 50px;
@@ -98,6 +101,7 @@ main {
 }
 #mh1 {
     font-size: 200%;
+    color: white;
 }
 
 #LMButton,#TAB {
@@ -112,7 +116,7 @@ main {
     background-color: #fb2056;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    /* font-size: 87.5%; */
+    font-size: 0.875rem;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -133,17 +137,21 @@ main {
 
 .mainMID1 {
     background-image: url("./images/invisible-thing.png");
+    /* background-color:#fb2056; */
     background-repeat: no-repeat;
     background-size: contain;
-    /* background-color: #fb2056; */
-    height: 173px;
+    height: 74px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin-left: 70.5px;
     margin-right: 70.5px;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items: center;
-    position: relative;
-    bottom: 580px;}
+    /* position: relative;
+    bottom: 580px; */
+}
 
 .mMID1text {
     height:72px;
@@ -153,11 +161,53 @@ main {
     font-family: 'Noto Sans',sans-serif;
     font-style: normal;
     font-weight:lighter;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
+
+.mTXTw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #mMID1text1 {font-size: 133%;}
 #mMID1text2 {margin: 0;}
+
+.mainMID2 {
+    height: 856px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;    
+}
+.mMID2Title {
+    font-size: 150%;
+    color: black;
+    margin: 0;
+
+}
+.mMID2Decor {
+    border-bottom: 3px solid #fb2056;
+    width: 90px;
+    height: 0px;
+    margin: auto;
+    margin-top: 0;
+}
+
+p {
+    font-family: "Noto Sans",sans-serif;
+}
+
+.campButton {
+    font-size: 0.875rem;
+    font-family: "Noto Sans",sans-serif;
+    color: white;
+    background-color: #fb2056;
+    border-radius: 33.33px;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
 footer {
     background-color: #191919;
