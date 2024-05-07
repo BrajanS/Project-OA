@@ -50,6 +50,7 @@ header {
 #mCust {display: flex; justify-content: flex-end;}
 #customize {
     border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow:-2px -1px 1px 1px rgba(0, 0, 0, 0.1);
     background-color: white;
     width: 102.938px;
     height: 16px;
@@ -132,22 +133,31 @@ main {
 
 .mainMID1 {
     background-image: url("./images/invisible-thing.png");
-    height: 140px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: #fb2056; */
+    height: 173px;
+    margin-left: 70.5px;
+    margin-right: 70.5px;
     display: flex;
     justify-content:center;
     align-items: center;
     position: relative;
-    bottom: 570px;
+    bottom: 580px;}
 
-}
 .mMID1text {
+    height:72px;
+    margin: 0;
     color: #191919;
     display: flex;
+    font-family: 'Noto Sans',sans-serif;
+    font-style: normal;
+    font-weight:lighter;
     flex-direction: column;
-    align-items: center;
-}
-
-
+    justify-content: center;
+    align-items: center;}
+#mMID1text1 {font-size: 133%;}
+#mMID1text2 {margin: 0;}
 
 footer {
     background-color: #191919;
