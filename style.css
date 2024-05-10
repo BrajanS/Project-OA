@@ -179,11 +179,20 @@ main {
     margin-top: 100px;
     display: flex;
     justify-content: center;    
+    margin-left: 70.5px;
+    margin-right: 70.5px;
+}
+
+.mMID2Container {
+    display: flex;
+    justify-content: center;
 }
 .mMID2Title {
     font-size: 150%;
     color: black;
     margin: 0;
+    display: flex;
+    justify-content: center;
 
 }
 .mMID2Decor {
@@ -192,21 +201,56 @@ main {
     height: 0px;
     margin: auto;
     margin-top: 0;
+    
 }
 
 p {
     font-family: "Noto Sans",sans-serif;
 }
-
+.mMID2Events {
+    display: flex;
+    justify-content: space-between;
+}
+.ER2div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.EL2div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.imgCampContainer {
+    
+}
+.imgCampForm {
+    background-image: url("../website-imgs/hiking-v1.jpg");
+}
+.campTxtContain {
+    color: black;
+}
 .campButton {
     font-size: 0.875rem;
     font-family: "Noto Sans",sans-serif;
     color: white;
     background-color: #fb2056;
     border-radius: 33.33px;
-    padding: 14px;
-    padding-left: 35px;
-    padding-right: 35px;
+    height: 14px;
+    width: 115.35px;
+    padding: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgHolidForm {
+    background-image: url("./website-imgs/walking-v1.jpg");
+}
+.holidTxtContain {
+    color:black;
 }
 .holidButton {
     font-size: 0.875rem;
@@ -214,9 +258,14 @@ p {
     color: white;
     background-color: #fb2056;
     border-radius: 33.33px;
-    padding: 14px;
-    padding-left: 35px;
-    padding-right: 35px;
+    height: 14px;
+    width: 115.35px;
+    padding: 17px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
