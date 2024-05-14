@@ -9,5 +9,38 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),url("./pages-images/about-bg-5.jpg");
     background-position: center;
     background-size: cover;
-    /* background-attachment:fixed; */
+    /*background-attachment:fixed;*/
+}
+.aM {
+    display: flex;
+    flex-direction: column;
+}
+.aM p {
+    color: rgba(64,64,64,1);
+    font-size: 16px;
+    font-family: "Noto Sans", sans-serif;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.aboutM1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.aMSeparator {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    /* justify-content: center;
+    align-items: center; */
+    /* width: 100%; */
+}
+
+.aboutM2 img {
+    height: 100%;
+    width: 100%;
+    box-shadow:8px 8px 1px 1px rgba(0, 0, 0, 0.3);
 }
