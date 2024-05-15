@@ -1,0 +1,13 @@
+footer {
+    background-color: #191919;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
