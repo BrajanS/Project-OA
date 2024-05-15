@@ -8,9 +8,46 @@
     <link rel="stylesheet" href="index.html">
     <link rel="stylesheet" href="contact.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="tailwind.config.js">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
-    <h1 class="text-9xl font-thin">Hello world</h1>
+    <header class="bg-[url('./pages-images/photo-haut-page5.jpg')] h-[92vh] pt-4 pr-9 pl-9 bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100">
+        <nav class="flex justify-between items-center">
+            <a href=""><img src="./pages-images/logo.png" width="60%" height="60%" alt=""></a>
+            <ul class="text-white flex gap-9 items-center max-md:flex-col">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a class="rounded-full p-3 pr-9 pl-9 bg-[#fb2056] hover:bg-orange" href="">Link action</a></li>
+            </ul>
+        </nav>
+        <div class="flex justify-center h-[80%] items-center">
+            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat']">Contact Us</h1>
+        </div>
+    </header>
+    <main class="h-[110vh]">
+        <!-- <h1 class="text-center text-4xl text-black">Main section</h1> -->
+        <div>
+            <h2>We're Ready, Let's Talk.</h2>
+            <form action="" method="post">
+                
+            </form>
+        </div>
+        <div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="bg-[#191919] flex-col space-y-7">
+            <p style="font-family:'Noto Sans',sans-serif; color: rgba(255, 255, 255,1)">123 Fifth Avenue, NY 10160, New
+                York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
+            <p style="font-family:'Noto Sans',sans-serif; color: rgba(255,255,255,1)">Copyright © 2024 Outdoor Adventure
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
