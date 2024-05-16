@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - Outdoor Adventure</title>
     <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
 </head>
 <body>
-    
+    <header
+        class="bg-[url('./pages-images/fond-page4.jpg')] h-[92vh] pt-4 pr-9 pl-9 bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100">
+        <nav class="flex justify-between items-center">
+            <a href=""><img src="./pages-images/logo.png" width="60%" height="60%" alt=""></a>
+            <ul class="text-white flex gap-9 items-center max-md:flex-col">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="rounded-full p-3 pr-9 pl-9 bg-[#fb2056] hover:bg-orange" href="">TAKE ACTION</a></li>
+            </ul>
+        </nav>
+        <div class="flex justify-center h-[80%] items-center">
+            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat']">Our Projects</h1>
+        </div>
+    </header>
+
+    <footer>
+        <div class="bg-[#191919] flex-col space-y-7 text-center">
+            <p style="font-family:'Noto Sans',sans-serif; color: rgba(255, 255, 255,1)">123 Fifth Avenue, NY 10160, New
+                York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
+            <p style="font-family:'Noto Sans',sans-serif; color: rgba(255,255,255,1)">Copyright © 2024 Outdoor Adventure
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

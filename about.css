@@ -1,5 +1,6 @@
-body {
-
+::selection {
+    color: white;
+    background-color:#fb2056;
 }
 
 header {
