@@ -7,7 +7,11 @@ body {
     color: white;
     background-color:#fb2056;
 }
-
+.menuPages a {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 .headAr {
     padding: 0;
     margin: 0;
@@ -30,6 +34,7 @@ body {
 #navTitle {
     margin-left: 40px;
 }
+#navTitle2 {margin-left: 20px; margin-top: 5px; display: none;}
 
 .navPages {
     height: 74px;  
@@ -190,7 +195,7 @@ main {
 #mMID1text2 {margin: 0;}
 
 .mainMID2 {
-    height: 826px;
+    /* height: 826px; */
     margin-top: 100px;
     display: flex;
     justify-content: center;    
@@ -320,7 +325,8 @@ h3 {
 
 .mainMID3 {
     width: 100%;
-    height: 600px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)),url("./website-imgs/section-bg-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -358,7 +364,7 @@ h3 {
     font-weight: lighter;
 }
 .mainDOWN {
-    height: 811px;
+    /* height: 811px; */
 }
 
 .mDOWNgroup {
@@ -411,6 +417,7 @@ img {
     /* block-size: 50%; */
     border-radius: 5px;
 }
+#navTitle2,#navTitle {border-radius: 0px;}
 
 footer {
     background-color: #191919;
@@ -442,21 +449,25 @@ footer div {
     }
 }
 @media (max-width:480px) {
-    h1 {font-size: 30px;}
     .headAr {height: 600px;}
+    nav {background-color: white;}
+    #navTitle {display: none;}
+    #navTitle2 {display: unset;}
     main {height: fit-content;}
+    h1 {font-size: 30px;}
+    .main1 h2 {font-size: 20px}
     .mainMID3 {background-attachment: unset; background-size:cover; height: 400px;}
     .VoidSep{display: none;}
     .mMID3Separator {justify-content: left; margin-left: 20px;}
     .SpMID3 {width: 100%;}
+    .mainMID3 {padding-top: 0px; padding-bottom: 20px;}
     .mMID3Separator h2 {text-align: left;}
     .mMID3Separator p {text-align: left;}
+    .mainDOWN {height: unset;}
     .mDOWNgroup {flex-direction: column; padding-top: 40px;}
     .mDOWNinfoContain {padding:0; padding-left: 20px; padding-right: 20px; width: 100%;}
-    .mDOWNimgsContain {flex-direction: column; width: 100%;}
+    .mDOWNimgsContain {margin-top: 30px; padding-left: 10px; flex-direction: column; width: 100%;}
     .mDOWNimgsContain img {width: 90%;}
     .mDOWNimgsCol {width: 100%;}
-    footer {bottom:0;}
-    .main1 h2 {font-size: 20px}
-    #navTitle {margin-left: 20px;}
+    .mDOWNcol2 {width: 100%; padding-left: 0;}
 }
