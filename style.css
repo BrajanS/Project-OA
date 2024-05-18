@@ -446,7 +446,32 @@ footer div {
     .mMID2Events {
         display: flex;
         flex-direction: column;
+
     }
+    .headAr {height: 600px;}
+    nav {background-color: white;}
+    #navTitle {display: none;}
+    #navTitle2 {display: unset;}
+    main {height: fit-content;}
+    #Uhm2 {width: 80px;}
+    .mMID2Decor {width: 140px;}
+    .mMID3Decor {width: 120px;}
+    h1 {font-size: 44px;}
+    .main1 h2 {font-size: 20px}
+    .mainMID3 {background-attachment: unset; background-size:cover; height: 400px;}
+    .VoidSep{display: none;}
+    .mMID3Separator {justify-content: left; margin-left: 20px;}
+    .SpMID3 {width: 100%;}
+    .mainMID3 {padding-top: 0px; padding-bottom: 20px;}
+    .mMID3Separator h2 {text-align: left;}
+    .mMID3Separator p {text-align: left;}
+    .mainDOWN {height: unset;}
+    .mDOWNgroup {flex-direction: column; padding-top: 40px;}
+    .mDOWNinfoContain {padding:0; padding-left: 20px; padding-right: 20px; width: 100%;}
+    .mDOWNimgsContain {margin-top: 30px; padding-left: 10px; flex-direction: column; width: 100%;}
+    .mDOWNimgsContain img {width: 90%;}
+    .mDOWNimgsCol {width: 100%;}
+    .mDOWNcol2 {width: 100%; padding-left: 0;}
 }
 @media (max-width:480px) {
     .headAr {height: 600px;}
