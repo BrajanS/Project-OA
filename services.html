@@ -16,18 +16,31 @@
     </style>
 </head>
 <body>
-    <header
-        class="bg-[url('./pages-images/fond-page3.jpg')] h-[92vh] pt-4 pr-9 pl-9 bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100">
-        <nav class="flex justify-between items-center">
-            <a href=""><img src="./pages-images/logo.png" width="60%" height="60%" alt=""></a>
+    <header class="bg-[url('./pages-images/fond-page3.jpg')] h-[570px] bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100 max-[1024px]:h-[310px]">
+        <nav class="flex justify-between items-center h-[74px] w-[100%]">
+            <a href="">
+                <img class="navTitle" src="./pages-images/logo.png" width="60%" height="60%" alt="">
+                <img class="navTitle2" width="100" src="./pages-images/black-logo2x.png">
+            </a>
             <ul class="text-white flex gap-9 items-center max-md:flex-col">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a class="rounded-full p-[16px] pr-[40px] pl-[40px] bg-[#fb2056] text-[14px] font-[700] font-['Noto_Sans']" href="#">TAKE ACTION</a></li>
+                <li><a class="switch" href="index.html">Home</a></li>
+                <li><a class="switch" href="about.html">About</a></li>
+                <li><a class="switch" href="services.html">Services</a></li>
+                <li><a class="switch" href="projects.html">Projects</a></li>
+                <li><a class="switch" href="contact.html">Contact</a></li>
+                <li><a class="switch rounded-full p-[16px] pr-[40px] pl-[40px] bg-[#fb2056] text-[14px] font-[700] font-['Noto_Sans']" href="#">TAKE ACTION</a></li>
             </ul>
+            <div class="switch2" style="margin-top: 80px; margin-right: 20px">
+                <button style="width: 50px; background-color: #fb2056;"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </button>
+                <div class="menuPages" style="display: flex; flex-direction: column;">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
         </nav>
         <div id="mCust">
             <div class="border-[1px_solid_rgba(0, 0, 0, 0)] shadow-[-2px_-1px_1px_1px_rgba(0,0,0,0.2)]
@@ -50,11 +63,11 @@
             </div>
         </div>
         <div class="flex justify-center h-[80%] items-center">
-            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat']">Services</h1>
+            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat'] max-[768px]:text-[44px]">Services</h1>
         </div>
     </header>  
-    <main class="h-fit pr-[50px] pl-[50px]">
-        <div class="flex justify-center h-fit mx-[240.5px]">
+    <main class="h-fit pr-[50px] pl-[50px] max-[768px]:px-[10px]">
+        <div class="flex justify-center h-fit mx-[240.5px] max-[1024px]:mx-0">
             <div class="TitleMservices pt-[90px] pb-[50px]">
                 <div class="text-[#252525] font-['Montserrat'] font-[700]"><h2 class="mDOWNtitle text-center">It's Time to Start Your Adventures</h2></div>
                 <div class="mx-auto mb-[20px] mt-[15px] w-[80px] rounded-[5px] h-[3px] bg-[#fb2056] border-[3px_solid_#fb2056]"></div>
@@ -62,16 +75,16 @@
             </div>
             <div></div>
         </div>
-        <div class="mainImgText pb-[150px]">
-            <div class="flex">
-                <div class="w-[50%] p-10">
+        <div class="mainImgText pb-[150px] max-[768px]:pb-[50px]">
+            <div class="flex max-[768px]:flex-col">
+                <div class="w-[50%] p-10 max-[768px]:w-[100%]">
                     <img class="shadow-[8px_8px_1px_1px_rgba(0,0,0,0.15)]" src="./pages-images/rondo-page3.jpg" alt="">
                     <div class="mainTxt">
                         <h2 class="font-['Montserrat']">Backpacking Trips</h2>
                         <p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
                     </div>
                 </div>
-                <div class="w-[50%] p-10">
+                <div class="w-[50%] p-10 max-[768px]:w-[100%]">
                     <img class="shadow-[8px_8px_1px_1px_rgba(0,0,0,0.15)]" src="./pages-images/montagne-page3.jpg" alt="">
                     <div class="mainTxt">
                         <h2 class="font-['Montserrat']">Family Hiking Trips</h2>
@@ -79,15 +92,15 @@
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <div class="w-[50%] p-10">
+            <div class="flex max-[768px]:flex-col">
+                <div class="w-[50%] p-10 max-[768px]:w-[100%]">
                     <img class="shadow-[8px_8px_1px_1px_rgba(0,0,0,0.15)]" src="./pages-images/lac-page3.jpg" alt="">
                     <div class="mainTxt">
                         <h2 class="font-['Montserrat']">Water Sports</h2>
                         <p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
                     </div>
                 </div>
-                <div class="w-[50%] p-10">
+                <div class="w-[50%] p-10 max-[768px]:w-[100%]">
                     <img class="shadow-[8px_8px_1px_1px_rgba(0,0,0,0.15)]" src="./pages-images/skiblue.jpg" alt="">
                     <div class="mainTxt">
                         <h2 class="font-['Montserrat']">Winter Sports</h2>
@@ -96,8 +109,8 @@
                 </div>
             </div>
         </div>
-        <div class="aMSeparator w-[100%] pb-[100px] mx-[20px] flex justify-center">
-            <div class="w-[50%]">
+        <div class="aMSeparator w-[100%] pb-[100px] mx-[20px] flex justify-center max-[768px]:flex-col">
+            <div class="w-[50%] max-[768px]:w-[100%] max-[768px]:pb-[30px]">
                 <div><h2 class="mDOWNtitle font-['Montserrat']">Why Outdoor Adventure</h2></div>
                 <div class="mMID3Decor mb-5 mt-[20px]"></div>
                 <p class="pb-11">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -119,7 +132,7 @@
                     <div></div>
                 </div>      
             </div>
-            <div class="w-[50%]">
+            <div class="w-[50%] max-[768px]:w-[100%]">
                     <div><h2 class="mDOWNtitle font-['Montserrat']">What You Get</h2></div>
                     <div class="mMID3Decor mb-[20px] mt-[20px]"></div>
                     <p class="pb-11">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
@@ -144,7 +157,7 @@
         </div>
     </main>
     <footer class="h-[160px] flex justify-center items-center bg-[#191919]">
-        <div class="flex-col space-y-7 text-center">
+        <div class="flex-col space-y-7 text-center max-[768px]:px-[50px]">
             <p style="font-family:'Noto Sans',sans-serif; color: rgba(255, 255, 255,1)">123 Fifth Avenue, NY 10160, New
                 York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
             <p style="font-family:'Noto Sans',sans-serif; color: rgba(255,255,255,1)">Copyright © 2024 Outdoor Adventure

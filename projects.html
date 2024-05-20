@@ -17,18 +17,31 @@
     </style>
 </head>
 <body>
-    <header
-        class="bg-[url('./pages-images/fond-page4.jpg')] h-[92vh] pt-4 pr-9 pl-9 bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100">
-        <nav class="flex justify-between items-center">
-            <a href=""><img src="./pages-images/logo.png" width="60%" height="60%" alt=""></a>
+    <header class="bg-[url('./pages-images/fond-page4.jpg')] h-[570px] bg-center bg-cover bg-[#0000005E] bg-blend-color opacity-100  max-[1024px]:h-[310px]">
+        <nav class="flex justify-between items-center pt-4 pr-9 h-[74px]">
+            <a href="#">
+                <img class="navTitle" src="./pages-images/logo.png" width="60%" height="60%" alt="">
+                <img class="navTitle2" width="100" src="./pages-images/black-logo2x.png">
+            </a>
             <ul class="text-white flex gap-9 items-center max-md:flex-col">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a class="rounded-full p-[16px] pr-[40px] pl-[40px] bg-[#fb2056] text-[14px] font-[700] font-['Noto_Sans']" href="#">TAKE ACTION</a></li>
+                <li><a class="switch" href="index.html">Home</a></li>
+                <li><a class="switch" href="about.html">About</a></li>
+                <li><a class="switch" href="services.html">Services</a></li>
+                <li><a class="switch" href="projects.html">Projects</a></li>
+                <li><a class="switch" href="contact.html">Contact</a></li>
+                <li><a class="switch rounded-full p-[16px] pr-[40px] pl-[40px] bg-[#fb2056] text-[14px] font-[700] font-['Noto_Sans']" href="#">TAKE ACTION</a></li>
             </ul>
+            <div class="switch2" style="margin-top: 80px; margin-right: 20px">
+                <button style="width: 50px; background-color: #fb2056;"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </button>
+                <div class="menuPages" style="display: flex; flex-direction: column;">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
         </nav>
         <div id="mCust">
             <div class="border-[1px_solid_rgba(0, 0, 0, 0)] shadow-[-2px_-1px_1px_1px_rgba(0,0,0,0.2)]
@@ -51,23 +64,23 @@
             </div>
         </div>
         <div class="flex justify-center h-[80%] items-center">
-            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat']">Our Projects</h1>
+            <h1 class="text-center text-[#FFFFFF] text-7xl font-bold font-['Montserrat']  max-[768px]:text-[44px]">Our Projects</h1>
         </div>
     </header>
-    <main class="h-fit pr-[75px] pl-[75px]">
+    <main class="h-fit pr-[75px] pl-[75px] max-[1024px]:px-[50px] max-[768px]:px-[15px]">
         <section class="pt-[80px] pb-[80px]">
             <div class="flex gap-4 items-center">
                 <div class="text-[#000000] font-['Montserrat'] text-[15px] font-[700]">Adventure</div>
                 <div class="w-[80px] rounded-[5px] h-[3px] bg-[#fb2056] border-[3px_solid_#fb2056]"></div>
             </div>
             <div class="mt-[20px]">
-                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] ">Water Sports</h2>
+                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] max-[480px]:text-[24px]">Water Sports</h2>
                 <p class="text-[#404040] text-[16px] font-[400] font-['Noto_Sans'] text-left">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
             </div>
             <div class="h-[100%] flex mt-[30px] pb-[30px]">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/bateau-slider-1-page4.jpg" alt="">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/canoe-slider-1-page4.jpg" alt="">
-                <img class="w-[32%]" src="./pages-images/barque-slider-1-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:w-[100%]" src="./pages-images/bateau-slider-1-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:hidden" src="./pages-images/canoe-slider-1-page4.jpg" alt="">
+                <img class="w-[32%] max-[1024px]:hidden" src="./pages-images/barque-slider-1-page4.jpg" alt="">
             </div>
         </section>
         <section class="pt-[80px] pb-[80px]">
@@ -76,13 +89,13 @@
                 <div class="w-[80px] rounded-[5px] h-[3px] bg-[#fb2056] border-[3px_solid_#fb2056]"></div>
             </div>
             <div class="mt-[20px]">
-                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] ">Winter Sports</h2>
+                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] max-[480px]:text-[24px]">Winter Sports</h2>
                 <p class="text-[#404040] text-[16px] font-[400] font-['Noto_Sans'] text-left">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
             </div>
             <div class="h-[100%] flex mt-[30px] pb-[30px]">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/ski1-slider2-page4.jpg" alt="">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/ski3-slider2-page4.jpg" alt="">
-                <img class="w-[32%]" src="./pages-images/ski4-slider2-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:w-[100%]" src="./pages-images/ski1-slider2-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:hidden" src="./pages-images/ski3-slider2-page4.jpg" alt="">
+                <img class="w-[32%] max-[1024px]:hidden" src="./pages-images/ski4-slider2-page4.jpg" alt="">
             </div>
         </section>
         <section class="pt-[80px] pb-[90px] w-[100%]">
@@ -91,18 +104,18 @@
                 <div class="w-[80px] rounded-[5px] h-[3px] bg-[#fb2056] border-[3px_solid_#fb2056]"></div>
             </div>
             <div class="mt-[20px]">
-                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] ">Camping</h2>
+                <h2 class="mb-[10px] text-[2.125rem] text-[#000000] font-[700] font-['Montserrat'] max-[480px]:text-[24px]">Camping</h2>
                 <p class="text-[#404040] text-[16px] font-[400] font-['Noto_Sans'] text-left">Interdum exercitation penatibus, praesentium facilisi accusamus fermentum, sagittis.</p>
             </div>
             <div class="h-[100%] flex mt-[30px] pb-[30px]">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/tent-slider3-page4.jpg" alt="">
-                <img class="w-[32%] mr-[20px]" src="./pages-images/tent2-slider4-page4.jpg" alt="">
-                <img class="w-[32%]" src="./pages-images/tent3-slider3-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:w-[100%]" src="./pages-images/tent-slider3-page4.jpg" alt="">
+                <img class="w-[32%] mr-[20px] max-[1024px]:w-[50%] max-[768px]:hidden" src="./pages-images/tent2-slider4-page4.jpg" alt="">
+                <img class="w-[32%] max-[1024px]:hidden" src="./pages-images/tent3-slider3-page4.jpg" alt="">
             </div>
         </section>
     </main>
     <footer class="h-[160px] flex justify-center items-center bg-[#191919]">
-        <div class="flex-col space-y-7 text-center">
+        <div class="flex-col space-y-7 text-center max-[768px]:px-[50px] max-[480px]:px-[20px]">
             <p style="font-family:'Noto Sans',sans-serif; color: rgba(255, 255, 255,1)">123 Fifth Avenue, NY 10160, New
                 York, USA | Phone: 800-123-456 | Email: contact@example.com</p>
             <p style="font-family:'Noto Sans',sans-serif; color: rgba(255,255,255,1)">Copyright © 2024 Outdoor Adventure

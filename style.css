@@ -16,25 +16,31 @@ body {
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 831px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)),url("./images/hero-bg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment:fixed;
 }
-
+.Ar {height: 831px;}
+.h1Center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #navBar {
     height: 74px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    top: 0;
 }
 
-#navTitle {
+.navTitle {
     margin-left: 40px;
 }
-#navTitle2 {margin-left: 20px; margin-top: 5px; display: none;}
+.navTitle2 {margin-left: 20px; margin-top: 5px; display: none;}
 
 .navPages {
     height: 74px;  
@@ -99,11 +105,19 @@ main {
 }
 
 .mainUP {
-    margin-top: 175px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 175px;
     margin-bottom: 315px;
+}
+.Idk {
+    
+}
+.mSize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #mh2 {
     display: flex;
@@ -417,7 +431,7 @@ img {
     /* block-size: 50%; */
     border-radius: 5px;
 }
-#navTitle2,#navTitle {border-radius: 0px;}
+.navTitle2,.navTitle {border-radius: 0px;}
 
 footer {
     background-color: #191919;
@@ -434,24 +448,29 @@ footer div {
 }
 
 @media (max-width:1024){
-
+    .headAr {height: 400px;}
+    .mainUP {margin: 0;}
+    .mSize {
+        padding-top: 230px;
+        padding-bottom: 230px;
+    }
+    main {height: fit-content;}
 }
 @media (max-width:818px) {
-    h1 {font-size: 44px;}
+    header {height: none;}
+    h1 {font-size: 44px; text-align: center;}
     .switch {display: none;}
     .switch2 {display: initial;}
     .main1 {margin: 0;}
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {     /*768 PX  Size*/
     .mMID2Events {
         display: flex;
-        flex-direction: column;
-
-    }
+        flex-direction: column;}
     .headAr {height: 600px;}
     nav {background-color: white;}
-    #navTitle {display: none;}
-    #navTitle2 {display: unset;}
+    .navTitle {display: none;}
+    .navTitle2 {display: unset;}
     main {height: fit-content;}
     #Uhm2 {width: 80px;}
     .mMID2Decor {width: 140px;}
@@ -473,11 +492,11 @@ footer div {
     .mDOWNimgsCol {width: 100%;}
     .mDOWNcol2 {width: 100%; padding-left: 0;}
 }
-@media (max-width:480px) {
+@media (max-width:480px) {         /*480 PX  Size*/
     .headAr {height: 600px;}
     nav {background-color: white;}
-    #navTitle {display: none;}
-    #navTitle2 {display: unset;}
+    .navTitle {display: none;}
+    .navTitle2 {display: unset;}
     main {height: fit-content;}
     h1 {font-size: 30px;}
     .main1 h2 {font-size: 20px}

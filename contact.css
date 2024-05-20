@@ -2,6 +2,24 @@
     color: white;
     background-color:#fb2056;
 }
+.navTitle {
+    margin-left: 40px;
+}
+.navTitle2 {margin-left: 20px; margin-top: 5px; display: none;}
+
+
+.switch {
+    display: unset;
+}
+.switch2 {
+    display: none;
+}
+
+.menuPages a {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
 
 footer {
     background-color: #191919;
@@ -15,4 +33,18 @@ footer div {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width:818px) {
+    header {height: none;}
+    h1 {font-size: 44px; text-align: center;}
+    .switch {display: none;}
+    .switch2 {display: initial;}
+    .main1 {margin: 0;}
+}
+
+@media only screen and (max-width: 768px) {     /*768 PX  Size*/
+    nav {background-color: white;}
+    .navTitle {display: none;}
+    .navTitle2 {display: unset;}
 }
